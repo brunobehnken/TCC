@@ -942,8 +942,8 @@
 \makeatletter % treat @ as a letter instead of a control word.
 \newcommand\annex{
     \par
-    % \setcounter{chapter}{0}
-    % \setcounter{section}{0}
+    \setcounter{chapter}{1}
+    \setcounter{section}{0}
     % \renewcommand\appendixname{Annex}
     % \renewcommand\appendixpagename{Annexes}
     % \renewcommand{\appendixtocname}{Annexes}
