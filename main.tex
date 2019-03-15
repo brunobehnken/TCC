@@ -14,7 +14,7 @@
 \begin{document}
 
 % título da tese é obrigatório
-\title{Título da monografia}
+\title{Análise e Fomento ao Uso do Laboratório de Informática na Escola: Um Estudo de Caso}
 
 % autor é obrigatório; máximo de 3 autores
 \author{Bruno Ricardo Behnken Costa}{\input{elementos-pretextuais/agradecimentos_bruno}}
@@ -27,8 +27,8 @@
 %\coadvisor[Prof.]{Nome do co-orientador,~M.Sc.}{}
 
 % máximo de 3 integrantes da banca (orientador e co-orientador já são adicionados automaticamente)
-\banca[Prof.]{Nome do participante banca 1,~D.Sc.}{}
-\banca[Prof.]{Nome do participante banca 2,~D.Sc.}{}
+\banca[Profª.]{Juliana Vianna Valério,~D.Sc.}{}
+\banca[Profª.]{Ana Luísa de Cerqueira Leite Duboc,~D.Sc.}{}
 %\banca[Prof.]{Nome do participante banca 3,~Ph.D.}{COPPE~-~UFRJ}
 
 \location{Rio~de~Janeiro}{RJ}{Brasil}
@@ -62,7 +62,7 @@
 }
 \bigskip
 % Palavras-chave separadas por ponto
-\palavraschave{Palavrachave1. Palavrachave2. Palavrachave3}
+\palavraschave{Informática Educativa. Laboratório. CAp-UFRJ. Proposta Pedagógica}
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,14 +73,14 @@
 }
 \bigskip
 % Palavras-chave separadas por ponto
-\keywords{Keyword1. Keyword2. Keyword3}
+\keywords{Educational Informatics. Laboratory. CAp-UFRJ. Pedagogical Proposal}
 \end{englishabstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % L I S T A S
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Figuras (opcional)
-% \makefigurespage
+\makefigurespage
 
 % Tabelas (opcional)
 % \maketablespage
@@ -101,16 +101,18 @@
 % C O N T E Ú D O
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \startcontent
+\input{elementos-textuais/Cap_Introducao.tex}
 \input{elementos-textuais/Cap_Ref_Teorico.tex}
 \input{elementos-textuais/Cap_Entrevistas.tex}
-\input{elementos-textuais/Cap_Relato_visita.tex}
+\input{elementos-textuais/Cap_Relato_aula.tex}
+\input{elementos-textuais/Cap_Conclusao.tex}
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % B I B L I O G R A F I A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Retirar esta parte se o trabalho não tiver bibliografia
-\makebibspage{abnt}{elementos-postextuais/referencias}
+\makebibspage{abnt}{elementos-postextuais/referencias} % ESTA LINHA NÃO DEVE SER COMENTADA NA VERSÃO FINAL
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -121,8 +123,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % A N E X O (opcional)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\annex
-\input{elementos-postextuais/anexo_entrevistas.tex}
-% \input{elementos-postextuais/anexo-2.tex}
+\annex  % ESTA LINHA NÃO DEVE SER COMENTADA NA VERSÃO FINAL
+\input{elementos-postextuais/anexo_entrevistas.tex}  % ESTA LINHA NÃO DEVE SER COMENTADA NA VERSÃO FINAL
 
 \end{document}
